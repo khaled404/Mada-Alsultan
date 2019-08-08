@@ -1,4 +1,7 @@
 $(function(){
+    $(".loader-box").fadeOut(1000,function () {
+        $(this).remove();
+    });
 
     $('.nav-torger, .overlay').on('click',function () {
         $('.nav-torger').toggleClass('active unActive')
