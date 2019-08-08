@@ -245,8 +245,8 @@ body {
   right: -100%;
   background-color: rgba(68, 62, 62, 0.851);
   z-index: 888;
-  -webkit-transition: 1.3s;
-  transition: 1.3s; }
+  -webkit-transition: 1s;
+  transition: 1s; }
 
 .over-active {
   right: 0; }
