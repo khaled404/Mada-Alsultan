@@ -1995,6 +1995,9 @@ footer {
           z-index: 2;
           -webkit-transition: .5s;
           transition: .5s; }
+          @media (max-width: 991px) {
+            footer .footer-top .fotnav .icon-box a i {
+              font-size: 15px; } }
         footer .footer-top .fotnav .icon-box a::before, footer .footer-top .fotnav .icon-box a::after {
           content: '';
           background-color: #d4af2e;
