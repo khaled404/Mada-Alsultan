@@ -1566,10 +1566,11 @@ body {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    margin-right: 10px;
     background-color: #0e0e0e;
     -webkit-transition: .5s;
     transition: .5s; }
+    .special .owl-carousel .owl-nav button.owl-next:not(:first-child), .special .owl-carousel .owl-nav button.owl-prev:not(:first-child), .special .owl-carousel button.owl-dot:not(:first-child) {
+      margin-right: 10px; }
     .special .owl-carousel .owl-nav button.owl-next.active, .special .owl-carousel .owl-nav button.owl-prev.active, .special .owl-carousel button.owl-dot.active {
       background-color: #d4af2e; }
 
