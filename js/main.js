@@ -1,7 +1,7 @@
 $(function(){
     // Loading Window
     $(window).load(function () {
-        $(".loader-box").fadeOut(1000,function () {
+        $(".loader-box").fadeOut(500,function () {
             $(this).remove();
         });
     });
