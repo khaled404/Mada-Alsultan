@@ -1078,6 +1078,9 @@ body {
     @media (max-width: 991px) {
       .about .pattern {
         display: none; } }
+    @media (min-width: 1920px) {
+      .about .pattern {
+        left: -22%; } }
     .about .pattern img {
       width: 80%; }
       @media (min-width: 1920px) {
@@ -1961,8 +1964,7 @@ footer {
           color: #d4af2e; }
     footer .footer-top .fotnav p {
       font-size: 14px;
-      color: #989898;
-      line-height: 2.143; }
+      color: #989898; }
     footer .footer-top .fotnav .icon-box {
       display: -webkit-box;
       display: -ms-flexbox;
