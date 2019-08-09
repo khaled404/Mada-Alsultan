@@ -39,6 +39,8 @@ $(function(){
         $('.fotnav h2').on('click',function () {
             $(this).parent().find('ul').slideToggle();
             $(this).parent().siblings().find('ul').slideUp();
+            $(this).toggleClass('rotate');
+            $(this).parent().siblings().find('h2').removeClass('rotate');
         })
     
     }
